@@ -14,14 +14,24 @@ a {
     color: #9d9288;
 }
 
+h2 {
+    border-top: 5px double #120e0b;
+}
+
 #experience {
     background-color: #6a645e;
     color: #efe9e4;
 }
 
+#experience h2 {
+    border-color: #efe9e4;
+}
+
+
 .experience-card {
     background-color: #d9d2c7;
     color: #1e1815;
+    border-color: #1e1815;
 }
 
 .portfolio-left {
@@ -49,6 +59,11 @@ a {
     max-height: 50vh;
     background-color: #6a645e;
     color: #efe9e4;
+}
+
+#contact h2 {
+    display: inline; 
+    border-color: #efe9e4;
 }
 
 #my-photo {
