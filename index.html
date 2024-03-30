@@ -3,126 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Ruth Khan's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
-    <h1>Ruth Khan</h1>
-    <img src="./assets/images/self-potrait.jpg" height="150" alt="Ruth Khan's photo" />
-    <hr />
-    <h2>Summary</h2>
-    <ul>
-        <li>Engineer turned Product Manager adept at distilling key problems and directing teams to design and deliver solutions that work for users’ context, within allocated resource constraints.</li>
-        <li>Hands-on team player willing to champion changes to support team, and to collaborate cross-functionally to resolve blockers. Selected for positions of increasing responsibility for ability to translate and gain trust across stakeholder groups from C-suite to Engineering and Comms.</li>
-        <li>Persistent problem-solver and avid learner, skilled at creatively experimenting with adapting solutions across domains, as evidenced by success across multiple industries and fields, including Sustainability, Financial Services, Law Enforcement, Data, and Software Product Development.</li>
-        <li>Achievements include: 
-            <ul>
-                <li>Developed and launched new regulatory submissions platform for >2,000 financial institutions aimed at cutting submission processing time. MVP launched in 50% of typical delivery time, with 70% entities onboarded in 3 months.</li>
-                <li>Led hybrid onsite/offshore remote team to build and deliver tool that allowed law enforcement agency to systematically identify related cases so that cases could be solved more quickly. Establishing such relationships had previously relied on memory of longer-serving officers.</li>
-                <li>Restructured existing product team in 3 months to begin delivering new product functionality each 2-week sprint, by re-aligning team to wider business objective, implementing plan to decommission old product, and reorganizing team. </li>
-            </ul>
-        </li>
-    </ul>
-    <hr />
-    <h2>Work Experience</h2>
-    <h3>TEAM LEAD, TECH PRODUCTS TEAM | Jan 2023 – Sep 2023</h3>
-    <h4>Monetary Authority of Singapore, Singapore</h4>
-    <p>
-        The Monetary Authority of Singapore (MAS) is Singapore’s Central Bank and integrated financial regulator. The Tech Products Team was set up in 2023 to design, build, and maintain digital products to achieve efficiency gains for the Capital Markets Group. <br />
-        <ul>
-            <li>Promoted to establish and lead 7-man product management team overseeing end-to-end product lifecycle for 9 application systems; set out team’s vision, goals, and work scope. Introduced methodologies for stakeholder engagement; qualitative and quantitative user data collection. </li>
-            <li>Improved engineering output by 50% by persuading product sponsors and IT delivery team to hire dedicated test engineers and set up automated testing for each product team, and working out process with HR to source continuous supply of software engineering interns.</li>
-            <li>Restructured existing product team in 3 months to begin delivering new product functionality each 2-week sprint by identifying major blockers; running design workshop with business to align team on problems to be solved; implementing plan to decommission old product; and reorganizing team. </li>
-        </ul>
-    </p>
+    <!-- 1. Title -->
+    <div class="container-fluid px-0" id="home">
+        <div class="row flex-lg-row-reverse align-items-center g-5 mx-0">
+            <div class="col-10 col-sm-8 col-lg-7 mt-0 px-0 d-flex justify-content-end">
+                <img src="./assets/images/coffee-cup.JPEG" class="d-block mx-0 img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-5 ps-5">
+                <h1 class="display-5 fw-medium text-body-emphasis lh-1 mb-3">Transforming ideas into reality</h1>
+                <p class="lead fs-6">Ruth Khan, Product Manager | Storyteller | Developer </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <a class="btn btn-dark btn-lg px-4 me-md-2 mb-5" fdprocessedid="dcr58" href="#contact">Let's Have a Chat</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <h3>DEPUTY DIRECTOR, SPECIAL PROJECTS | Apr 2021 – Jan 2023</h3>
-    <h4>Monetary Authority of Singapore, Singapore</h4>
-    <p>
-        <ul>
-            <li>Product manager hired as team member #1 to devise plan to deliver Management’s vision.  Conducted initial market and user research to clearly define problem, proposed delivery model and team structure. Grew team to 11 members, personally leading UX research and product launch.</li>
-            <li>Spearheaded regulatory submissions platform for 2,000+ financial institutions and 500+ supervisory officers. Onboarded 70% of eligible entities within 3 months of MVP launch, paving way for time savings of up to 5% headcount. Launched from scratch in 21 months, 50% of typical delivery time.</li>
-            <li>Strategized cross-functionally with DevOps, IT Delivery, Procurement, and Comms teams to adapt processes to support existing waterfall and new agile products. Pioneered new streamlined process for beta launch and engagement framework for sectoral launches. </li>
-        </ul>
-    </p>
+    <!-- 2. My Experience -->
+    <div class="container-fluid px-0 py-3" id="experience">    
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-baseline g-5 py-md-5 px-5 me-0">
+            <div class="col col-md-3 d-flex flex-column align-items-start gap-2">
+                <h2 class="fw-bold">Who I Am</h2>
+                <p class="my-md-3">
+                    Trained as an engineer, I'm a versatile and persistent problem-solver. <br /><br />
+                    I love trying to understand people's motivations and creating solutions that delight them. 
+                </p>
+                <a href="./assets/Resume-RuthKhan.pdf" class="btn btn-dark btn-lg my-md-4">
+                    <i class="bi bi-download me-2"></i>
+                    My Resume
+                </a>
+            </div>
+        
+            <div class="col col-md-9">
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg experience-card">
+                            <div class="d-flex flex-column h-100 p-3 text-shadow-1">
+                                <h3 class="my-3 lh-1 fw-medium">New regulatory submissions platform</h3>
+                                <ul class="list-unstyled mt-auto">
+                                    <li class="my-3"><small>Developed platform for >2,000 financial institutions to cut submission processing time. </small></li>
+                                    <li class="my-3"><small>Launched in 50% of typical delivery time, with 70% entities onboarded in 3 months.</small>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-    <h3>HEAD (DATA MANAGEMENT), DATA & INNOVATION | Jul 2020 – Apr 2021</h3>
-    <h4>AXA Insurance, Singapore </h4>
-    <p>
-        AXA Insurance is a leading composite insurance company. Its Singapore unit was acquired by HSBC in Aug 2021.
-        <ul>
-            <li>Directed 6-member team overseeing data governance and data quality. Led initiative to reduce complaints relating to data quality and privacy by: 
-                <ul>
-                    <li>Building tool to identify likely data errors and working with agent network to pre-emptively correct such errors while minimizing inconvenience to customers</li>
-                    <li>Raising data collection standards and approval process for new projects processing data</li>
-                </ul>
-            </li>
-            <li>Traced and resolved complex cross-jurisdiction data quality issues within SLA of 10 working days, working with regional system owners to determine root causes and fixes. </li>
-        </ul>
-    </p>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg experience-card">
+                            <div class="d-flex flex-column h-100 p-3 text-shadow-1">
+                                <h3 class="my-3 lh-1 fw-medium">Visual case linking tool</h3>
+                                <ul class="list-unstyled mt-auto">
+                                    <li class="my-3"><small>Built tool that enabled law enforcement agency to solve cases more quickly by systematically identifying related cases. </small></li>
+                                    <li class="my-3"><small>This previously relied on senior officers remembering case details.</small>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-    <h3>DATA SCIENCE MGR, HEALTH & PUBLIC SECTOR | Oct 2018 – Jan 2020</h3>
-    <h4>Accenture, Singapore </h4>
-    <p>
-        Accenture is the world’s largest independent technology services provider. Its clients include over 75% of the Fortune Global 500.  
-        <ul>
-            <li>Led local and remote project teams, delivering AI/ML projects worth >USD 200K. </li>
-        </ul>
-        <h5>Significant Projects</h5>
-        <ul>
-            <li>Built case linking tool for law enforcement agency that eliminated reliance on institutional memory. Product developed and accepted by customer within agreed timeline of 3 months. </li>
-            <li>Developed manpower demand forecasting prototype to assist police in determining headcount to allocate to each field office. Prototype garnered interest from 3 police departments internationally, each expressing interest in helping to build out full product. </li>
-            <li>Selected as 1 of only 2 finalists in data protection R&D competition with proposal to apply data privacy techniques on machine learning in processing sensitive personal data to encourage accurate data reporting by mental health patients </li>
-            <li>Cut engineers’ data migration time by 50% by creating dashboards to facilitate error tracing. </li>
-        </ul>
-    </p>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg experience-card">
+                            <div class="d-flex flex-column h-100 p-3 text-shadow-1">
+                                <h3 class="my-3 lh-1 fw-medium">Product team transformation</h3>
+                                <ul class="list-unstyled mt-auto">
+                                    <li class="my-3"><small>Restructured team to begin delivering new functionality each 2-week sprint.</small></li>
+                                    <li class="my-3"><small>Re-aligned team to vision, implemented plan to decommission old product, and reorganized team.</small>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
 
-    <h3>DEP DIR, DATA GOVERNANCE & ARCHITECTURE | Dec 2016 – Sep 2018 <br />
-    SR POLICY ANALYST, REGULATORY FRAMEWORK | Aug 2011 – Nov 2016</h3>
-    <h4>Monetary Authority of Singapore, Singapore</h4>
-    <p>
-        <ul>
-            <li>Promoted to lead revisions in data policy due to expertise in financial confidentiality, data protection laws, and policy writing. Led USD 1.3M studies on data anonymization techniques and started inter-agency knowledge sharing community for privacy-preserving analytics.</li>
-            <li>Subject matter expert on banking secrecy, data protection, basic banking, and finance companies. </li>
-        </ul>
-    </p>
+    <!-- 3. My Portfolio -->
+    <div class="container-fluid px-0" id="portfolio">
+        <div class="row row-cols-1 row-cols-md-2 g-5 ps-5 me-0 pt-md-5">
+            <div class="col-md-5 portfolio-left">
+                <div class="d-flex align-items-center">
+                    <h2>Developer Portfolio</h2>
+                </div>
+                <div class="card" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-7">
+                            <img src="./assets/images/mentormatch.png" class="img-fluid rounded-start" alt="Mentormatch screenshot">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card-body">
+                                <h4 class="card-title">Mentor Match</h4>
+                                <p class="card-text">Website for a tiered, subscription-based service that matches women with mentors</p>
+                                <p class="card-text"><small class="text-body-secondary">HTML | CSS | Bootstrap</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 portfolio-right">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <img src="./assets/images/moving.png" class="img-fluid rounded-start" alt="True Story Resumes screenshot">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body">
+                                <h4 class="card-title">True Story Resumes</h4>
+                                <p class="card-text">Website for a resume-writing service. Customer information is automatically saved to database in Hubspot for full customer journey.</p>
+                                <p class="card-text"><small class="text-body-secondary">HTML | CSS | Bootstrap | Hubspot</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="row g-0 flex-md-row-reverse">
+                        <div class="col-md-7">
+                            <img src="./assets/images/blueberry-pancakes.png" class="img-fluid rounded-start" alt="Mentormatch screenshot">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card-body">
+                                <h4 class="card-title">Blueberry Pancakes</h4>
+                                <p class="card-text">Mobile-friendly website selling homemade crochet plushies. Includes product gallery and shopping cart.</p>
+                                <p class="card-text"><small class="text-body-secondary">HTML | CSS | Bootstrap | Canva</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <h3>ASST DIRECTOR, ENVIRONMENT & WATER | Jan 2009 – Aug 2011 <br />
-        ENGINEER, CATCHMENT & WATERWAYS | Aug 2005 – Dec 2008</h3>
-    <h4>PUB Singapore’s National Water Agency, Singapore</h4>
-    <p> PUB is the national water utility which manages Singapore’s water supply, water catchment, and used water in an integrated way
-        <ul>
-            <li>Promoted and successfully achieved USD 105M bid to further develop water industry in Singapore.</li>
-            <li>Introduced and secured USD 0.9B funding from Cabinet for sustainable urban drainage program. </li>
-        </ul>
-    </p>
+    <!-- 4. Contact Me -->
+    <div class="container-fluid px-0 overflow-hidden" id="contact">
+        <div class="row flex-sm-row-reverse p-4 pb-0 px-sm-0 pt-sm-5 align-items-top mx-0 justify-content-end">
+            <div class="col-sm-7 p-3 p-lg-3 pt-lg-3">
+                <h2 class="fw-medium mb-sm-3">Contact Me</h2>
+                <p class="mb-sm-4">Ruth Khan</p>
+                <p class="lead">Email</p>
+                <p class="mb-sm-4">ruth.khan@gmail.com</p>
+                <p class="lead">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/ruthkhan/"><p class="mb-4">linkedin.com/in/ruthkhan</p></a>
+            </div>
+            <div class="col-sm-4 p-0">
+                <img class="rounded-sm-3 shadow-lg" id="my-photo" src="./assets/images/Self-Potrait.jpg" alt="Ruth Khan Photo">
+            </div>
+        </div>
+    </div>
 
-    <h3>INTERN, INVESTMENT BANKING | Jun 2004 – Dec 2004</h3>
-    <h4>UBS, UK</h4>
-    <p>
-        <ul>
-            <li>Prepared M&A pitch decks and critically analyzed department performance vis-à-vis other investment banks. Received offer for full-time position. </li>
-        </ul>
-    </p>
-    <hr />
-    <h2>Education</h2>
-    <h3>MASTER OF ENGINEERING (HONS) – Engineering, Economics and Management</h3>
-    <p>Worcester College, University of Oxford – United Kingdom – 2005 </p>
-    <h3>SOFTWARE DEVELOPMENT CERT (BLACK BELT) – Python, JavaScript</h3>
-    <p>  Coding Dojo, Colorado Technical University – United States – 2023 </p>
-    <hr />
-    <h2>Skills</h2>
-    <p>Product Strategy • Continuous Discovery • User Interviews • UX Research • Process Re-Engineering • Data Analysis • Data Storytelling • Vendor Relations • Agile Methodologies</p>
-    <h3>Technical Skills</h3>
-    <p>Python • JavaScript • SQL • HTML • CSS • Hypothesis Testing • AWS • Tableau • Miro • Notion • Jira • Trello • NN/g UX Master • Certified ScrumMaster • PRINCE2 • CFA Level 1</p>
-    <hr />
-    <h2>Miscellaneous Information</h2>
-    <a href="./public/contact.html">Contact Details</a> | 
-    <a href="./public/portfolio.html">Portfolio</a>
-    <hr />
-    <footer>
-        <small>
-            2024 Ruth Khan. Inspiration for portfolio projects from App Brewery and Canva.
-        </small>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

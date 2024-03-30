@@ -1,0 +1,56 @@
+body {
+    background-color: #faf2e9; 
+    color: #120e0b;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 0.8rem; 
+}
+
+a {
+    color: #9d9288;
+}
+
+#experience {
+    background-color: #6a645e;
+    color: #efe9e4;
+}
+
+.experience-card {
+    background-color: #d9d2c7;
+    color: #1e1815;
+}
+
+.portfolio-left {
+    display: grid;
+    grid-template-rows: 4fr 5fr; 
+    margin-top: 0px;
+}
+
+.portfolio-right {
+    display: grid;
+    grid-template-rows: 5fr 4fr; 
+    margin-top: 0px;
+}
+
+.card {
+    background-color: #faf2e9; 
+    border: 0px;
+}
+
+.card > * {
+    align-items: center;
+}
+
+#contact {
+    max-height: 50vh;
+    background-color: #6a645e;
+    color: #efe9e4;
+}
+
+#my-photo {
+    width: 25vw;
+}
